@@ -1,0 +1,150 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(120deg,#e8fdf0,#f6fffa);
+}
+
+.navbar{
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.hero{
+height:500px;
+background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+url("https://images.unsplash.com/photo-1558611848-73f7eb4001a1");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+color:white;
+}
+
+.feature-card{
+border:none;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-5px);
+}
+
+.card{
+border:none;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.progress{
+height:12px;
+border-radius:10px;
+}
+
+.icon{
+font-size:22px;
+margin-right:8px;
+}
+
+.footer i{
+font-size:22px;
+margin:0 10px;
+}
+
+/* Auth styles */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.error {
+    color: red;
+    background: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: green;
+    background: #e6ffe6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+color:#555;
+}
+
+.footer i:hover{
+color:#28a745;
+}
+
+/* goals css */
+
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    }
+    
+    .progress{
+    height:12px;
+    border-radius:10px;
+    }
+    
+    img{
+    max-height:250px;
+    object-fit:cover;
+    }
+
+/* Contact css */
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+    }
+    
+    img{
+    border-radius:12px;
+    width:100%;
+    object-fit:cover;
+    }
+        
+        .input-group-text{
+        background:#f5f5f5;
+        border:none;
+        }
+        
+        .form-control{
+        border-radius:8px;
+        }
